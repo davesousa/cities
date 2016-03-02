@@ -50,7 +50,7 @@ end
 def find_state_for_city(city)
   @cities.each do |k, v|
     if v.include?(city)
-      return k
+      return "The state is #{k}"
     end
   end
 end
